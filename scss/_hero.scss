@@ -1,0 +1,48 @@
+// _hero.scss
+@use 'variables' as *;
+
+#about {
+    position: relative;
+    height: 70vh;
+    padding: 50px 0;
+}
+
+.hero-content {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 389px;
+    width: 960px;
+}
+
+.titles-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-title {
+    margin: 0;
+    font-size: 76px;
+    font-weight: bold;
+}
+
+.hero-subtitle {
+    margin: 0;
+    font-size: 28px;
+    color: $color-primary;
+    width: 100%;
+    text-align: center;
+}
+
+.hero-description {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    width: 450px;
+    height: 64px;
+}

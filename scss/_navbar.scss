@@ -1,0 +1,63 @@
+// _navbar.scss
+@use 'variables' as *;
+
+body {
+    background-color: $color-white;
+    color: $color-black;
+    font-family: $font-body;
+    font-size: 16px;
+    margin: 0;
+}
+
+header {
+    padding: 0;
+    height: 80px;
+    box-shadow: 0px 4px 16px -6px rgba(0, 0, 0, 0.392);
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 7px;
+    width: 100%;
+}
+
+.cta-button {
+    background-color: $color-dark;
+    color: $color-white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.logo {
+    color: $color-primary;
+    font-family: $font-logo;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.nav-links {
+    margin: 0;
+    display: flex;
+    padding: 0;
+    gap: 50px;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: $color-black;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: $color-primary;
+}
