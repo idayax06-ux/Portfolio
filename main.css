@@ -24,6 +24,11 @@ header {
   width: 100%;
 }
 
+header, .navbar {
+  position: relative;
+  z-index: 100;
+}
+
 .cta-button {
   font-family: "Geist", sans-serif;
   font-weight: 600;
@@ -63,6 +68,38 @@ header {
   color: #802000;
 }
 
+.hero {
+  position: relative;
+  background-color: #FFFFFF;
+  width: 100%;
+  min-width: 600px;
+  overflow: hidden;
+  height: 709px;
+}
+
+.hero-circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #F1F5F9;
+}
+
+.hero-circle--left {
+  width: 540px;
+  height: 540px;
+  left: -240px;
+  top: -180px;
+  background-color: #F1F5F9;
+  opacity: 0.9;
+}
+
+.hero-circle--right {
+  height: 540px;
+  width: 540px;
+  opacity: 0.85;
+  right: -240px;
+  top: 169px;
+}
+
 #about {
   position: relative;
   height: 70vh;
@@ -71,6 +108,8 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 70%;
+  left: 15%;
 }
 
 .hero-content {

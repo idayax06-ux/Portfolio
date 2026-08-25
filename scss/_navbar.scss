@@ -26,6 +26,11 @@ header {
     width: 100%;
 }
 
+header, .navbar {
+    position: relative;
+    z-index: 100;
+}
+
 .cta-button {
     font-family: $font-body;
     font-weight: 600;
